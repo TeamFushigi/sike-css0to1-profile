@@ -1,0 +1,43 @@
+body {
+	background-image: url(http://uploads.striking.ly/page/images/backgrounds/bg5.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	padding: 1px;	
+	margin: 0 auto;
+	width: 960px;
+}
+
+.main-header {
+	padding: 1px;	
+	margin-top: 200px;
+	margin-bottom: 20px;
+
+	text-align: center;
+
+	background: url(../img/banner.jpg);
+}
+
+.main-header__avatar {
+	margin: 0 auto;
+	margin-top: -70px;
+	margin-bottom: 10px;
+	display: block;
+	border: 3px solid white;
+	
+	border-radius: 999px;
+	box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+}
+
+h1 {
+	margin-bottom: 20px;
+	
+	color: white;	
+	font-weight: 300;
+	font-size: 50px;
+	font-family: 'Open Sans','helvetica',arial,sans-serif;
+	text-shadow: 0 1px rgba(0,0,0,0.3);
+}
